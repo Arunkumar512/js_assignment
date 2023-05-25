@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navi from './component/Navi';
+import Chart from './component/Chart';
+import Cards from './component/Card';
+import Total_cards from './component/Total_cards';
+import Item from './component/Item';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navi />
+      <div className="main">
+        <Cards />
+        <Chart />
+        <Total_cards />
+      </div>
+        <Item />
     </div>
   );
 }

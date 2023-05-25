@@ -1,0 +1,28 @@
+.user {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+.user1:hover {
+transform: scale(1.05);
+background: #000;
+color: aliceblue;
+}
+.user2:hover {
+transform: scale(1.05);
+background: #000;
+color: aliceblue;
+}
+.user3:hover {
+transform: scale(1.05);
+background: #000;
+color: aliceblue;
+}
+.user4:hover {
+transform: scale(1.05);
+background: #000;
+color: aliceblue;
+}
+

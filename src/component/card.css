@@ -1,0 +1,15 @@
+.main1 {
+  margin: 1rem;
+}
+.icon:hover{
+  transform: scale(1.05);
+}
+.icon {
+  width: 9rem;
+  height: auto;
+}
+.admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

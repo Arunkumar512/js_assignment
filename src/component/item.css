@@ -1,0 +1,35 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button a {
+  text-decoration: none;
+ color: black;
+}
+.date{
+  width:30rem;
+  height: auto;
+}
+.pgimg:hover{
+transform: scale(1.5);
+
+}
+.button1{
+background: #000;
+}
+.button1 a{
+color: antiquewhite;
+}
+.button2{
+background: #000;
+}
+.button2 a{
+color: antiquewhite;
+}
+.button1:hover {
+  transform: scale(1.05);
+}
+.button2:hover {
+  transform: scale(1.05);
+}
